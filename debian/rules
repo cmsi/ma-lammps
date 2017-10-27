@@ -31,7 +31,7 @@ ifeq (,$(filter $(DEB_HOST_ARCH),$(disable_auto_test_archs_simpl)))
 endif
 ifeq (,$(filter $(DEB_HOST_ARCH),$(disable_auto_test_archs_mpi)))
 	mkdir test; cp examples/crack/* test/
-	cd test; mpirun -np 2 --oversubscribe ./../src/lammps < in.crack
+	cd test; mpirun -np 2 ./../src/lammps < in.crack
 	rm -rf test
 endif
 

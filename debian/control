@@ -1,6 +1,6 @@
 Source: lammps
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
-Uploaders: Anton Gladky <gladk@debian.org>
+Uploaders: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
 Section: science
 Testsuite: autopkgtest
 Priority: extra
@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9),
                libjpeg-dev,
                mpi-default-bin,
                mpi-default-dev
-Build-Depends-Indep: texlive-latex-recommended
+Build-Depends-Indep: texlive-lang-cjk, htmldoc
 Standards-Version: 3.9.8
 Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/lammps.git
 Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/lammps.git

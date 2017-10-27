@@ -1,3 +1,9 @@
+lammps (0~20170811.malive-1) unstable; urgency=medium
+
+  * New upstream (20170811)
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Fri, 27 Oct 2017 12:16:20 +0900
+
 lammps (0~20161109.git9806da6-7) unstable; urgency=medium
 
   * [ca7dc38] Better fix for the bug, fixed in previous upload.
