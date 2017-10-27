@@ -1,0 +1,3 @@
+Tests: crack dipole ellipse flow friction hugo 
+Depends: lammps
+Restrictions: allow-stderr

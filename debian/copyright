@@ -1,0 +1,329 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: http://lammps.sandia.gov/
+
+Files: *
+Copyright: Sandia Corporation (2003)
+           U.S. Government
+           Steve Plimpton  <sjplimp@sandia.gov>
+           Ahmed Ismail
+           Aidan Thompson
+           Alexander Stukowski
+           Ase Henry
+           Axel Kohlmeyer <akohlmey@gmail.com>
+           Carolyn Phillips
+           Christina Payne
+           Chuanfu Luo <luochuanfu@gmail.com>
+           Craig Maloney
+           Eduardo Bringa
+           Eric Simon
+           Greg Wagner
+           G. Ziegenhain <gerolf@ziegenhain.com>
+           Jeff Greathouse
+           Kurt Smith
+           Mark Stevens
+           Mathias Puetz
+           Mike Brown
+           Mike Parks
+           Naveen Michaud-Agrawal
+           Paul Crozier
+           Pieter in 't Veld
+           Pim Schravendijk
+           Randy Schunk
+           Ravi Agrawal
+           Wan Liang
+           Ilya Valuev
+           Keir Novik
+License: GPL-2
+
+Files: lib/poems/*
+Copyright: KURT S ANDERSON <anderk5@rpi.edu> (2004)
+           RUDRANARAYAN M MUKHERJEE <mukher@rpi.edu> (2004)
+           JAMES H CRITCHLEY (2004)
+           JOHN L ZIEGLER (2004)
+           SCOTT LIPTON (2004)
+           GEOFFREY BASORE (2004)
+           JOHN EVANS (2004)
+License: POEMS-License
+ Authors as indicated in Author List and Rensselaer Polytechnic Institute
+ .
+ Parallelizable Open source Efficient Multibody Software (POEMS) is
+ written and maintained by the authors as indicated in Author's List
+ as a part of Scientific Computation Research Center (SCOREC) at
+ Rensselaer Polytechnic Intitute, Troy, NY, USA.
+ .
+ This License Agreement applies to any software library or other
+ program which contains a notice placed by the copyright holder
+ saying it may be distributed under the terms of this Rensselaer
+ Public License (also called "this License"). Each licensee is
+ addressed as "you".
+ .
+ A "library" means a collection of software functions and/or data
+ prepared so as to be conveniently linked with application programs
+ (which use some of those functions and data) to form executables.
+ The "Library", below, refers to any such software library or work
+ which has been distributed under these terms.  A "work based on the
+ Library" means either the Library/code or any derivative work under
+ copyright law.
+ .
+ "Source code" for a work means the preferred form of the work for
+ making modifications to it including any associated interface
+ definition files, and scripts used to control compilation and
+ installation of the library.
+ .
+ This library is free software; Redistribution and use in source
+ code and binary forms, with or without modification, are permitted
+ provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions, the authors list, the grants list,
+    and the following disclaimer without any modifications and in its
+    current form.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions, the authors list, the grants list,
+    and the following disclaimer in the documentation and/or other
+    materials provided with the distribution.
+ .
+ 3. You must cause the files modified to carry prominent notices
+    stating that you changed the files and dates of the change.
+ .
+ 4. At your discretion, you may submit the differences between the
+    program and your work based on the program for inclusion in the
+    source code repository maintained by Rensselaer Polytechnic
+    Institute.  The mechanics of the submission are explained in the
+    file named CONTRIBUTE distributed with the Library. Should you
+    decide to submit the changes, you agree to provide Rensselaer
+    Polytechnic Institute with a joint copyright assignment of the
+    changes, and you agree to sign such a copyright assignment form at
+    the request of Rensselaer Polytechnic Institute. Changes will then
+    made as appropriate to the authors list at the Resselaer
+    repository.
+ .
+ 5. The authors as listed in "Authors_List" reserve the right to
+    distribute the software or any modified work in any other license
+    form if they so choose to without infringing on any previous or
+    concurrent license agreement.
+ .
+ 6. The name of the authors or their employer(s), Rensselaer
+    Polytechnic Institute, the Computational Dynamics Laboratory, the
+    Scientific Computation Research Center (SCoReC), nor the names of
+    any of the software distributors may not be used to endorse or
+    promote products derived from this software without specific prior
+    written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHORS "AS IS" AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR THE SCIENTIFIC
+ COMPUTATION RESEARCH CENTER BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ DAMAGE.
+
+Files: src/USER-REAXC/*
+Copyright: Purdue University (2010)
+           Hasan Metin Aktulga <hmaktulga@lbl.gov>
+           Joseph Fogarty <jcfogart@mail.usf.edu>
+           Sagar Pandit <pandit@usf.edu>
+           Ananth Y Grama <ayg@cs.purdue.edu>
+License: GPL-2+
+
+Files: lib/gpu/geryon/*
+Copyright: Sandia Corporation (2010)
+           U.S. Government
+License: Simplified_BSD
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY SANDIA CORPORATION ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ EVENT SHALL SANDIA CORPORATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ The views and conclusions contained in the software and documentation are those
+ of the authors and should not be interpreted as representing official policies,
+ either expressed or implied, of Sandia Corporation.
+ .
+ http://users.nccs.gov/~wb8/geryon/license.htm
+
+Files: python/examples/pizza/* tools/python/pizza/*
+Copyright: Sandia Corporation (2005)
+           U.S. Government
+License: GPL
+
+Files: src/WINDOWS/extra/inttypes.h src/WINDOWS/extra/stdint.h
+Copyright: Alexander Chemeris (2006-2008)
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ 3. The name of the author may be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: src/USER-MISC/pair_meam_spline.cpp src/USER-MISC/pair_meam_spline.h
+Copyright: Sandia Corporation (2003)
+           Lawrence Livermore National Security, LLC (2011)
+License: GPL
+
+Files: src/WINDOWS/extra/fftw2/fftw.h
+Copyright: Massachusetts Institute of Technology (1997-1999, 2003)
+License: GPL-2+
+
+Files: src/WINDOWS/extra/dirent.h
+Copyright: Toni Ronkko (2006)
+License: MIT/X11
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ ``Software''), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED ``AS IS'', WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL TONI RONKKO BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+Files: lib/gpu/cudpp_mini/*
+Copyright: University of California (2007-2010)
+           NVIDIA Corporation
+License: Simplified_BSD
+ Copyright (c) 2007-2010 The Regents of the University of California, Davis
+ campus ("The Regents") and NVIDIA Corporation ("NVIDIA"). All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    * Neither the name of the The Regents, nor NVIDIA, nor the names of its
+      contributors may be used to endorse or promote products derived from this
+      software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: src/WINDOWS/extra/erf_namd.c
+Copyright: Sun Microsystems, Inc (1993)
+License: Simplified_BSD-1
+ Developed at SunPro, a Sun Microsystems, Inc. business.
+ Permission to use, copy, modify, and distribute this
+ software is freely granted, provided that this notice
+ is preserved.
+
+Files: lib/kokkos/*
+Copyright: Copyright (2014) Sandia Corporation
+License: BSD-3-clause
+ Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation,
+ the U.S. Government retains certain rights in this software.
+ . 
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the Corporation nor the names of the
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY SANDIA CORPORATION "AS IS" AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL SANDIA CORPORATION OR THE
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL'.
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.

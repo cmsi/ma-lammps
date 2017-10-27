@@ -1,0 +1,43 @@
+#!/usr/bin/make -f
+
+export OMPI_MCA_plm_rsh_agent=/bin/false                #workaround to start MPI-applications in chroot
+ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+    NUMJOBS = $(patsubst parallel=%,%,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+    MAKEFLAGS += -j$(NUMJOBS)
+endif
+
+disable_auto_test_archs_mpi = hurd-i386 mips mipsel mips64el s390 s390x
+disable_auto_test_archs_simpl = mips64el
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_clean:
+	cd src; make clean-all
+	dh_clean
+
+override_dh_auto_build-arch:
+	cd src; $(MAKE) yes-all; $(MAKE) no-lib; $(MAKE) mpi
+	mv src/lmp_mpi src/lammps
+
+override_dh_auto_build-indep:
+	cd doc; $(MAKE) old; $(MAKE) pdf
+
+override_dh_auto_test-arch:
+ifeq (,$(filter $(DEB_HOST_ARCH),$(disable_auto_test_archs_simpl)))
+	mkdir test; cp examples/crack/* test/
+	cd test; ./../src/lammps < in.crack
+	rm -rf test
+endif
+ifeq (,$(filter $(DEB_HOST_ARCH),$(disable_auto_test_archs_mpi)))
+	mkdir test; cp examples/crack/* test/
+	cd test; mpirun -np 2 --oversubscribe ./../src/lammps < in.crack
+	rm -rf test
+endif
+
+override_dh_fixperms-indep:
+	dh_fixperms -i
+	find $(CURDIR)/debian/lammps-doc/usr/share/doc/lammps-doc/examples/USER/ -type f -print -exec chmod 644 {} \; 
+	find $(CURDIR)/debian/lammps-doc/usr/share/doc/lammps-doc/examples/vashishta/ -type f -print -exec chmod 644 {} \; 
+	find $(CURDIR)/debian/lammps-doc/usr/share/doc/lammps-doc/ -type f -print0 | xargs -0 sed -i 's/https:\/\/cdn\.mathjax\.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML/\/usr\/share\/javascript\/mathjax\/config\/TeX-AMS-MML_HTMLorMML\.js/g'
+	rm -rf $(CURDIR)/debian/lammps-doc/usr/share/doc/lammps-doc/doc/doc2
