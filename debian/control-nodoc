@@ -1,0 +1,36 @@
+Source: lammps
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
+Section: science
+Testsuite: autopkgtest
+Priority: extra
+Build-Depends: debhelper (>= 9),
+               libeigen3-dev,
+               libfftw3-dev,
+               libjpeg-dev,
+               mpi-default-bin,
+               mpi-default-dev
+Build-Depends-Indep: texlive-lang-cjk, htmldoc
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/lammps.git
+Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/lammps.git
+Homepage: http://lammps.sandia.gov/
+
+Package: lammps
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         mpi-default-bin
+Recommends: lammps-doc
+Description: Molecular Dynamics Simulator
+ LAMMPS is a classical molecular dynamics code, and an acronym for Large-scale
+ Atomic/Molecular Massively Parallel Simulator.
+ .
+ LAMMPS has potentials for soft materials (biomolecules, polymers) and
+ solid-state materials (metals, semiconductors) and coarse-grained or
+ mesoscopic systems. It can be used to model atoms or, more generically, as a
+ parallel particle simulator at the atomic, meso, or continuum scale.
+ .
+ LAMMPS runs on single processors or in parallel using message-passing
+ techniques and a spatial-decomposition of the simulation domain. The code is
+ designed to be easy to modify or extend with new functionality.

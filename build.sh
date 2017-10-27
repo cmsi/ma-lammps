@@ -10,6 +10,7 @@ case "$(dpkg --print-architecture)" in
         mv -f ../${PACKAGE}_$VERSION_BASE*.changes ../${PACKAGE}_$VERSION_BASE*.dsc ../${PACKAGE}_$VERSION_BASE*.debian.tar.* ../${PACKAGE}_$VERSION_BASE*.orig.tar.gz ../${PACKAGE}*_$VERSION_BASE*.deb $TARGET_DIR
         ;;
     i386)
+        cp -fp debian/control-nodoc debian/control
         dpkg-buildpackage -b -us -uc
         mv -f ../${PACKAGE}_$VERSION_BASE*.changes ../${PACKAGE}*_$VERSION_BASE*.deb $TARGET_DIR
         ;;
