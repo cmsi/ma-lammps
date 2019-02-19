@@ -1,1 +1,2 @@
-10_set_configure_flags.patch
+10_enable_spglib.patch
+20_set_potentials_path.patch

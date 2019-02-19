@@ -1,0 +1,20 @@
+Description: link against libsymspg-dev to provide the functionality to
+ produce irreducible q-points with spglib.
+Author: Andrius Merkys <andrius.merkys@gmail.com>
+Index: lammps-0~20181211.gitad1b1897d/tools/phonon/Makefile
+===================================================================
+--- lammps-0~20181211.gitad1b1897d.orig/tools/phonon/Makefile
++++ lammps-0~20181211.gitad1b1897d/tools/phonon/Makefile
+@@ -16,9 +16,9 @@ LPKLIB =-llapack
+ # spglib 1.8.2, used to get the irreducible q-points
+ # if UFLAG is not set, spglib won't be used.
+ 
+-# UFLAG  = -DUseSPG
+-# SPGINC = -I/opt/libs/spglib/1.8.2/include
+-# SPGLIB = -L/opt/libs/spglib/1.8.2/lib -lsymspg
++UFLAG  = -DUseSPG
++SPGINC =
++SPGLIB = -lsymspg
+ 
+ # if spglib other than version 1.8.2 is used, please 
+ # modify file phonon.cpp, instruction can be found by searching 1.8.2
