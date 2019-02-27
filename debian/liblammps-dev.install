@@ -1,0 +1,2 @@
+usr/include
+usr/share/cmake/Modules/FindLAMMPS.cmake usr/share/lammps/

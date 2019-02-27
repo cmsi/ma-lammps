@@ -1,2 +1,3 @@
-10_enable_spglib.patch
-20_set_potentials_path.patch
+rpath.patch
+binary-name.patch
+debian.patch
