@@ -38,11 +38,11 @@
 * How to prepare original source tarball
 
   ```
-  VERSION=20190201
-  VERSION_ORIG=1Feb2019
-  wget -O lammps-$VERSION.tar.gz https://github.com/lammps/lammps/archive/patch_$VERSION_ORIG.tar.gz
+  VERSION=20190807
+  VERSION_ORIG=stable_7Aug2019
+  wget -O lammps-$VERSION.tar.gz https://github.com/lammps/lammps/archive/$VERSION_ORIG.tar.gz
   tar zxvf lammps-$VERSION.tar.gz
-  mv lammps-patch_$VERSION_ORIG lammps_$VERSION
+  mv lammps-$VERSION_ORIG lammps_$VERSION
   tar zcvf lammps_$VERSION.orig.tar.gz lammps_$VERSION
   rm -rf lammps-$VERSION.tar.gz lammps_$VERSION
   ```

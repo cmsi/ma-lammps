@@ -1,0 +1,10 @@
+--- a/src/memory.cpp
++++ b/src/memory.cpp
+@@ -13,6 +13,7 @@
+ 
+ #include "memory.h"
+ #include <cstdlib>
++#include <string.h>
+ #include "error.h"
+ 
+ #if defined(LMP_USER_INTEL) && defined(__INTEL_COMPILER)

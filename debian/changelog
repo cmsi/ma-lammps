@@ -1,3 +1,9 @@
+lammps (20190807-1) unstable; urgency=medium
+
+  * New upstream (20190807)
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Mon, 09 Sep 2019 18:26:43 +0900
+
 lammps (20190201-1) unstable; urgency=medium
 
   * New upstream (20190201)
