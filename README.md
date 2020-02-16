@@ -6,7 +6,7 @@
 
 ### Version
 
-* 20190201-1 (27 Feb 2019)
+* see debian/changelog
  
 ### Provided packages
 
@@ -18,8 +18,11 @@
 
 ### Target distributions and architectures
 
+* Debian buster (amd64, i386)
 * Debian stretch (amd64, i386)
 * Debian jessie (amd64, i386)
+* Ubuntu bionic (amd64)
+* Ubuntu xenial (amd64)
 
 ### For users
 
@@ -38,8 +41,8 @@
 * How to prepare original source tarball
 
   ```
-  VERSION=20190807
-  VERSION_ORIG=stable_7Aug2019
+  VERSION=yyyymmdd
+  VERSION_ORIG=patch_mmddyy
   wget -O lammps-$VERSION.tar.gz https://github.com/lammps/lammps/archive/$VERSION_ORIG.tar.gz
   tar zxvf lammps-$VERSION.tar.gz
   mv lammps-$VERSION_ORIG lammps_$VERSION
