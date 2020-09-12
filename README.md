@@ -19,11 +19,8 @@
 ### Target distributions and architectures
 
 * Debian buster (amd64, i386)
-* Debian stretch (amd64, i386)
-* Debian jessie (amd64, i386)
 * Ubuntu focal (amd64)
 * Ubuntu bionic (amd64)
-* Ubuntu xenial (amd64)
 
 ### For users
 
@@ -36,17 +33,3 @@
      ```
      suto apt-get install lammps lammps-data lammps-doc
      ```
-
-### For developers
-
-* How to prepare original source tarball
-
-  ```
-  VERSION=20200721
-  VERSION_ORIG=patch_21Jul2020
-  wget -O lammps-$VERSION.tar.gz https://github.com/lammps/lammps/archive/$VERSION_ORIG.tar.gz
-  tar zxvf lammps-$VERSION.tar.gz
-  mv lammps-$VERSION_ORIG lammps_$VERSION
-  tar zcvf lammps_$VERSION.orig.tar.gz lammps_$VERSION
-  rm -rf lammps-$VERSION.tar.gz lammps_$VERSION
-  ```
