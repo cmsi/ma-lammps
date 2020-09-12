@@ -1,2 +1,3 @@
 usr/include
-usr/share/cmake/Modules/FindLAMMPS.cmake usr/share/lammps/
+usr/lib/*/pkgconfig/liblammps.pc
+usr/lib/*/cmake/LAMMPS

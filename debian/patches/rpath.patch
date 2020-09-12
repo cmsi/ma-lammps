@@ -1,8 +1,8 @@
 --- a/cmake/CMakeLists.txt
 +++ b/cmake/CMakeLists.txt
-@@ -26,6 +26,19 @@
- file(GLOB LMP_SOURCES ${LAMMPS_SOURCE_DIR}/main.cpp)
- list(REMOVE_ITEM LIB_SOURCES ${LMP_SOURCES})
+@@ -29,6 +29,19 @@
+   set(CMAKE_INSTALL_PREFIX "$ENV{HOME}/.local" CACHE PATH "default install path" FORCE )
+ endif()
  
 +# RPATH fix
 +set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
