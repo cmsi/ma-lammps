@@ -1,3 +1,9 @@
+lammps (20201009-1) unstable; urgency=medium
+
+  * New upstream version 20201009
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 20 Oct 2020 13:32:55 +0900
+
 lammps (20200824-1) unstable; urgency=medium
 
   * New upstream version 20200824
